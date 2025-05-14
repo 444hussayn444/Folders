@@ -1,0 +1,188 @@
+.prediction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  margin-top: 10rem;
+}
+.prediction-container .form {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  flex-direction: column;
+  width: 60%;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  padding: 30px 20px;
+  gap: 16px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.395);
+}
+
+.prediction-container .form .symptoms-text {
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  padding-left: 10px;
+  border: 2px solid #333;
+}
+
+.prediction-container .form .symptoms-text::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.prediction-container .form .speech {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: center;
+}
+.prediction-container .form .speech .start-speech {
+  padding: 7px;
+  border: 1px solid rgb(0, 162, 255);
+  border-radius: 15px;
+  background-color: rgb(23, 121, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+.mic {
+  font-size: 17px;
+}
+
+.prediction-container .form .predict-btn {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: center;
+}
+
+.prediction-container .form .predict-btn .predict-click {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(23, 121, 234);
+  box-shadow: 0px 0px 6px 0px rgb(23, 121, 234);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.prediction-container .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.prediction-container .btns .Button {
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgb(23, 121, 234);
+  background-color: rgb(23, 121, 234);
+  width: 176px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  transition: ease 0.3s;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+/* hovers */
+
+.prediction-container .form .predict-btn .predict-click:hover {
+  background-color: rgb(10, 91, 184);
+}
+
+.prediction-container .form .speech .start-speech:hover {
+  background-color: rgb(10, 91, 184);
+}
+
+.prediction-container .btns .Button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 91, 184);
+}
+/* editing the css for elements have class hidden, and also pray for me cause i think i have a so fucking high blood pressure*/
+
+.btns {
+  transform: translate(0%);
+  transition: transform ease-in-out 1s;
+}
+
+.btns.hidden {
+  transform: translate(150%);
+}
+
+/* now the fucking toasts */
+
+.toast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  gap: 20px;
+}
+
+.toast-title {
+  background-color: rgb(23, 121, 234);
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgb(23, 121, 234);
+  font-size: 22px;
+}
+
+.things {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  font-size: 22px;
+}
+
+.desc {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  li {
+    font-size: 22px;
+  }
+}
+
+
+.recomendation{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  margin:10px ;
+  h2{
+    color: #333;
+    font-size: 15px;
+  }
+}

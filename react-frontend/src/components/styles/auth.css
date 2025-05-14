@@ -1,0 +1,124 @@
+.auth-container{
+    background-color: whitesmoke;
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.auth-links
+{
+    background-color: var(--btns-color);
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px var(--btns-color);
+transition: ease 0.3s;
+
+}
+
+
+
+.auth-links:hover{
+    background-color:rgb(53, 148, 249);
+
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.titleauth h2{
+    color: #333;
+}
+
+
+
+.registerPage{
+    padding: 20px;
+}
+
+
+
+.date{
+    width: 287px;
+}
+
+
+.form-auth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.names,.age-email{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.inputs{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid var(--btns-color);
+    color: #333;
+    font-weight: 700;
+    outline: none;
+}
+
+
+.inputs::placeholder{
+    color: #919191;
+    font-weight: 700;
+}
+
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    label{
+        color: #333;
+    }
+
+}
+
+
+.submit{
+    background-color: var(--btns-color);
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: ease 0.3s;
+}
+
+.submit:hover{
+    background-color:rgb(53, 148, 249);
+}
+
+@media (max-width:630px){
+    .m-x{
+        display: flex;
+        flex-direction: column;
+    }
+}

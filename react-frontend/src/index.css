@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+}
+
+.light {
+  background-color: whitesmoke;
+  color: #191919;
+  .chat-container {
+    background-color: whitesmoke;
+  }
+  .right-section-res.open {
+    background-color: whitesmoke;
+    .links {
+      .link {
+        color: white !important;
+      }
+    }
+    .searchs {
+      background-color: rgb(9, 139, 239);
+      color: white;
+    }
+  }
+  .menu {
+    background-color: rgb(9, 139, 239);
+    color: white;
+  }
+  .link {
+    color: black !important;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+
+  .nav-container {
+    background-color: white !important;
+  }
+  a {
+    color: rgb(255, 255, 255) !important;
+  }
+  a:hover,
+  .title,
+  h1 {
+    color: rgb(9, 139, 239) !important;
+  }
+
+  .products,
+  .description {
+    background-color: whitesmoke;
+    p {
+      color: rgb(9, 139, 239);
+    }
+  }
+  .doc {
+    p {
+      color: white;
+    }
+  }
+  .footer {
+    background-color: whitesmoke;
+    p {
+      color: black;
+      .webTit {
+        color: rgb(9, 139, 239);
+      }
+    }
+  }
+  .loading {
+    color: rgb(9, 139, 239);
+  }
+  .pro {
+    .info {
+      p {
+        color: #333 !important;
+      }
+    }
+  }
+  .theme-color {
+    background-color: rgb(9, 139, 239);
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    width: 35px;
+    font-size: 17px;
+    text-align: center;
+    height: 35px;
+    color: white;
+  }
+  .theme-color:hover {
+    background-color: rgba(9, 139, 239, 0.847);
+    .theme-icon {
+      fill: rgb(255, 255, 255);
+    }
+  }
+  .cartIcon,
+  .search {
+    background-color: rgb(9, 139, 239);
+    fill: white;
+    color: white;
+  }
+  .theme-icon {
+    fill: white;
+  }
+  .things {
+    color: black;
+  }
+}
+
+.theme-color {
+  background-color: #333;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+  width: 35px;
+  font-size: 17px;
+  text-align: center;
+  height: 35px;
+}
+
+.theme-color:hover {
+  background-color: rgb(9, 139, 239);
+  .theme-icon {
+    fill: rgb(255, 255, 255);
+  }
+}
+
+.theme-icon {
+  fill: rgb(9, 139, 239);
+}
+
+.pro {
+  .info {
+    p {
+      color: white !important;
+    }
+  }
+}
